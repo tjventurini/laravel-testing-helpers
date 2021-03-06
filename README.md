@@ -13,7 +13,7 @@ composer require --dev tjventurini/laravel-testing-helpers
 Add the following to your base test case.
 
 ```php
-use Marqant\SupportDroppingForeignKeysSqlite;
+use Tjventurini\LaravelTestingHelpers\SupportDroppingForeignKeysSqlite;
 
 abstract class TestCase extends BaseTestCase
 {
