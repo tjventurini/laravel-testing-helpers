@@ -1,6 +1,6 @@
 <?php
 
-namespace Marqant\TestHelpers\Traits;
+namespace Tjventurini\LaravelTestingHelpers\Traits;
 
 use \Illuminate\Support\Fluent;
 use \Illuminate\Database\Connection;
