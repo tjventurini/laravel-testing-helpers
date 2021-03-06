@@ -10,7 +10,8 @@
         }
     ],
     "require": {
-        "illuminate/support": "^6.0||^7.0||^8.0"
+        "illuminate/support": "^6.0||^7.0||^8.0",
+        "tjventurini/service-provider": "^0.0.1"
     },
     "autoload": {
         "psr-4": {
