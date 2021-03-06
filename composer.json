@@ -1,0 +1,27 @@
+{
+    "name": "tjventurini/laravel-testing-helpers",
+    "description": "Helpers to test your laravel application.",
+    "type": "package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Thomas Venturini",
+            "email": "thomas@venturini.codes"
+        }
+    ],
+    "require": {
+        "illuminate/support": "^6.0||^7.0||^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tjventurini\\LaravelTestingHelpers\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Tjventurini\\LaravelTestingHelpers\\ServiceProvider"
+            ]
+        }
+    }
+}
